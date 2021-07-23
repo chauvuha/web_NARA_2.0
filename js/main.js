@@ -80,17 +80,13 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.intro_content, .skill_container`, {
+sr.reveal(`.skill_container`, {
     origin: 'top',
     interval: 200,
 })
 
-sr.reveal(`.intro_picture, .second_content, .test_opener, .form_footer, .test_opener_profile `, {
-    origin: 'right',
-    interval: 200,
-})
 
-sr.reveal(`.second_picture, .pa, .roadmap1, .roadmap2, .lastest_result`, {
+sr.reveal(`.intro_picture, .intro_content, .second_content, .second_picture, .pa, .roadmap1, .roadmap2, .lastest_result`, {
     origin: 'left',
     interval: 200,
 })
