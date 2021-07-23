@@ -80,10 +80,10 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.skill_container`, {
-    origin: 'top',
-    interval: 200,
-})
+// sr.reveal(`.skill_container`, {
+//     origin: 'top',
+//     interval: 200,
+// })
 
 
 sr.reveal(`.intro_picture, .intro_content, .second_content, .second_picture, .pa, .roadmap1, .roadmap2, .lastest_result`, {
