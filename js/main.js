@@ -86,7 +86,7 @@ const sr = ScrollReveal({
 // })
 
 
-sr.reveal(`.intro_picture, .intro_content, .second_content, .second_picture, .pa, .roadmap1, .roadmap2, .lastest_result`, {
+sr.reveal(`.intro_picture, .intro_content, .second_content, .second_picture, .pa, .lastest_result`, {
     origin: 'left',
     interval: 200,
 })
