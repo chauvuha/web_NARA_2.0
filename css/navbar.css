@@ -10,6 +10,10 @@
   }
 
 /*=============== NAV ===============*/
+
+.main {
+  width: 100% !important;
+}
 .nav {
     padding: 0px 30px;
     height: 70px;
@@ -42,6 +46,7 @@
   } */
 
 @media screen and (max-width: 767px) {
+
   .nav__menu {
     position: fixed;
     background-color:orange;
@@ -52,6 +57,10 @@
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
     transition: .4s;
+  }
+
+  .nav {
+    width: 100%;
   }
 }
 
@@ -114,10 +123,6 @@
 
 
 @media screen and (min-width: 768px) {
-  /* .nav__menu {
-    display: flex;
-    column-gap: 1rem;
-  }      */
   .nav__list {          
     flex-direction: row;          
     column-gap: 4rem;       

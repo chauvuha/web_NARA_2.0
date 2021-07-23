@@ -10,11 +10,19 @@
     box-sizing: border-box;
 }
 
+iframe {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
 
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
+
+
 
 /* BODY */
 
@@ -179,6 +187,11 @@ height: 130vh;
 
 /* MEDIA QUERIES */
   @media screen and (min-width: 768px) {
+    iframe {
+      text-align: center;
+      width: 100%;
+      height: 500px;
+    }
       .main_intro,
       .second_intro {
         display: flex;
