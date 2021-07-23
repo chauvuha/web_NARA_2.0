@@ -1,0 +1,116 @@
+.skill_container {
+    row-gap: 0;
+}
+
+.skill_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.skill_icon,
+.skill_arrow {
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-left: 20px
+}
+
+
+.skill_percentage {
+    display: block;
+}
+
+.skill_list {
+    row-gap: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+.skills_close .skill_list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills_open .skill_list {
+    height: max-content;
+}
+
+.skills_open .skill_arrow {
+    transform: rotate(-180deg);
+}
+
+
+
+.skill_content:first-child {
+    background-color: white;
+}
+.skill_content:last-child {
+    margin-top:50px;
+    background-color: rgb(255, 201, 100);
+
+}
+
+.skill_content {
+    padding: 25px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.test_opener {
+    padding: 25px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.button_testPage {
+    background-color: rgb(111, 111, 161);
+    color: white;
+    font-weight: 600;
+    width: 200px;
+}
+
+.test_opener:hover,
+.skill_content:hover {
+    transform: scale(1.02);
+    transition: 0.25s;
+}
+
+.main_roadmap {
+    background-color: rgb(111, 111, 161);
+    height: 250vh;
+    padding: 100px 30px 30px 30px;
+}
+
+.roadmap_title {
+    text-align: center;
+    color: white;
+  }
+  
+.roadmap_title_base {
+    background-color: orange;
+    height: 3px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+  
+  h2 {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .skill_content {
+        padding: 20px;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    h2,
+    h1 {
+        font-size: 25px;  
+    }
+}

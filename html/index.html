@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== ICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>NARA</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+                <h1>NARA </h1>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./html/aboutUs.html" class="nav__link active-link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./html/roadmapIntro.html" class="nav__link">Roadmaps</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./html/profile.html" class="nav__link">Sign In</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="main_intro">
+            <div class="intro_content">
+                <h2> We make STEM career more accessible for 23 millions Vietnamese youth who aspire to work in these fields but face barriers </h2>
+                <a href="/html/roadmapIntro.html"><button class="button1"> See our roadmaps </button></a>
+            </div>
+            <img class="intro_picture" src="/img/output-onlinepngtools.png">
+        </div>
+        <div class="second_intro">
+            <img class="second_picture" src="/img/secondpic.png">
+            <div class="second_content">
+                <h2> Get the best roadmaps for your success</h2>
+                <ul>
+                    <li>Suggestion Making </li>
+                    <li>Goal Setting with estimated completion time </li>
+                    <li>Step-by-step problem solving guidance </li>
+                    <li>Personalized motivational feedback delivered visually on Learners’ Profile </li>
+                </ul>
+                <button class="button2"> Take your test now </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="pa about">
+            <h2>Contact Us</h2>
+            <p>Do not forget to contact us if you have any questions </p>
+            <ul class="social-media">
+                <li><a href="http://facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></i></a></li>
+            </ul>
+        </div>
+        <form class="form_footer" action="vuhachau2412@email.com" method="POST">
+            <div class="form-info">
+                <div class="form-email">
+                    <h2> Email </h2>
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form-name">
+                    <h2> Name </h2>
+                    <input class="form_name" type="text" name="name" required>
+                </div>
+            </div>
+            <div class="form-message">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button class="button_footer" type="submit">Send</button>
+
+        </form>
+    </div>
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

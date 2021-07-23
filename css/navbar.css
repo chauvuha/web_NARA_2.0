@@ -1,0 +1,128 @@
+
+  /*=============== HEADER ===============*/
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: transparent;
+  }
+
+/*=============== NAV ===============*/
+.nav {
+    padding: 0px 30px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__logo, .nav__toggle {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav__toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  
+  /* .nav__menu {
+    position: fixed;
+    background-color:orange;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+    padding: 3rem;
+    transition: .4s;
+  } */
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color:orange;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+    padding: 3rem;
+    transition: .4s;
+  }
+}
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+  }
+    
+  .nav__link {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .nav__toggle:hover,  
+  .nav__logo:hover
+  .nav__link:hover {   
+  color: orange;
+  }
+    
+  .nav__close {
+    position: absolute;
+      top: .75rem;
+      right: 1rem;
+      font-size: 1.5rem;
+      color: rgb(111, 111, 161);
+      cursor: pointer;
+    }
+    
+    /* show menu */
+  .show-menu {
+    right: 0;
+  }
+
+  
+  /* Change background header  */
+.scroll-header {
+  background-color: white;  
+  box-shadow: 0 0 5px rgba(14, 55, 63, 0.15);
+} 
+  
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle,
+.scroll-header .nav__link {
+  color: orange;
+}
+
+.scroll-header .nav__logo:hover,
+.scroll-header .nav__toggle:hover {
+    color: rgb(111, 111, 161);
+}
+  
+.scroll-header .nav__link {
+  color: rgb(111, 111, 161)
+}
+
+.scroll-header .nav__link:hover {
+  color: black
+}
+
+
+@media screen and (min-width: 768px) {
+  /* .nav__menu {
+    display: flex;
+    column-gap: 1rem;
+  }      */
+  .nav__list {          
+    flex-direction: row;          
+    column-gap: 4rem;       
+  }       
+  .nav__toggle, .nav__close {         
+    display: none;      
+  }     
+}
