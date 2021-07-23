@@ -58,8 +58,8 @@
 }
 
 .test_opener {
-    padding: 25px;
-    width: 80%;
+    padding: 20px;
+    width: 90%;
     margin: 0 auto;
     border-radius: 5px;
     background-color: orange;
@@ -80,7 +80,6 @@
 
 .main_roadmap {
     background-color: rgb(111, 111, 161);
-    height: 250vh;
     padding: 100px 30px 30px 30px;
 }
 
@@ -103,8 +102,7 @@
 
   @media screen and (max-width: 767px) {
     .skill_content {
-        padding: 20px;
-        width: 70%;
+        width: 86%;
         margin: 0 auto;
         border-radius: 5px;
     }
