@@ -1,13 +1,10 @@
-.main_profile {
-    /* height: 200vh; */
+.user-profile {
     padding-top: 150px;
     background-color:rgb(111, 111, 161);
     display: flex;
-    /* align-items: flex-end; */
-    /* flex-direction: column */
 }
 
-.user_profile {
+.user-profile-info {
     padding: 30px;
     background-color: white;
     flex: 2.5;
@@ -15,14 +12,15 @@
     flex-direction: column;
 }
 
-.lastest_result {
+.lastest-quiz-result {
     color: white;
     flex: 1;
     padding: 30px;
-
+    display: flex;
+    flex-direction: column;
 }
 
-.lastest_result h1 {
+.lastest-quiz-result h1 {
     color: rgb(255, 203, 106);
 }
 
@@ -30,10 +28,9 @@
     height: 4px;
     background-color: orange;
     margin-bottom: 20px;
-    /* width: 60%; */
 }
 
-.selected_roadmap {
+.user-profile-info-selected-roadmap {
     display: flex;
 }
 
@@ -47,47 +44,48 @@
     margin: 20px 20px 20px 0px;
 }
 
-.test_opener_profile {
+.user-profile-info-test-opener {
     background-color: rgb(255, 203, 106);
     padding: 20px;
     border-radius: 5px;
-    /* width: 70%; */
 }
 
-.button_profilePage {
+.button-profile-test-opener{
     background-color: rgb(111, 111, 161);
     color: white;
     font-weight: 600;
     width: 200px;
 }
 
-.intro_line {
+.intro-line {
     height: 4px;
     background-color: rgb(111, 111, 161);
     margin-bottom: 20px;
     width: 60%;
 }
 
-.profile_character_box {
+/* .character-box {
     margin-top: 20px;
     background-color: rgb(243, 243, 243);
     border-radius: 5px;
     padding: 20px;
-}
+} */
 
 @media screen and (max-width: 767px) {
-    .main_profile {
+    .user-profile {
         flex-direction: column-reverse;
-        /* padding-bottom: 150px; */
-/* height: 210vh; */
-        /* justify-content: start;
-        align-items: flex-end; */
     }
+
+    .lastest-quiz-result {
+        display: flex;
+        flex-direction: column;
+    }
+
     body {
         padding-top: 100px;            
-
-    }        
-    .lastest_result {
+    }   
+         
+    .lastest-quiz-result {
         font-size: 22px;   
     }
 }

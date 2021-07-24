@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/softwareafter.css">
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/index.html" class="nav__logo">
+                <h1>NARA </h1>
+            </a>
+    
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/html/aboutUs.html" class="nav__link active-link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/html/roadmapIntro.html" class="nav__link">Roadmaps</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/html/profile.html" class="nav__link">Sign In</a>
+                    </li>
+                </ul>
+    
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+    
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="software-page-main">
+        <div class="software-page-title">
+            <h1> Software Developer Full Roadmap</h1>
+            <span></span>
+            <div class="software-page-title-line"></div>
+        </div>
+        <div class="software-page-content">
+            <iframe height="500" max-width="100%" frameborder="0"
+                src="https://www.mindmeister.com/maps/public_map_shell/1967717359/front-end-developer?width=600&height=400&z=auto&t=QMZ4gukHao"
+                scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames.
+                Please
+                visit <a href="https://www.mindmeister.com/1967717359/front-end-developer?t=QMZ4gukHao"
+                    target="_blank">Front-end developer</a> on MindMeister.</iframe>
+            <div class="software-page-content-text">
+                <div class="software-page-content-text-top"> 
+                    <h2> As the roadmap has shown, to become a full-stack software developer, learners have to learn and master both Front-end & Back-end track
+                        <br>
+                    We recommend you follow our roadmaps for both tracks below: </h2>
+                    <h1 onclick="changToFrontend()"> Step 1: Frontend Developer </h1>
+                </div>
+                <div class="software-page-content-text-bottom"> 
+                    <h1> Step 2: Backend Developer </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="/js/main.js"></script>
+</body>
+</html>

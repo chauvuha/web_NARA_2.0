@@ -37,6 +37,7 @@
                         <a href="/html/profile.html" class="nav__link">Sign In</a>
                     </li>
                 </ul>
+                <!-- <a href="./beforelogin/fullstkbeforelog.html"></a> -->
 
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
@@ -46,129 +47,56 @@
             </div>
         </nav>
     </header>
-    <div class="main_roadmap">
-        <div class="skill" id="skill">
-            <div class="test_opener">
-                <!-- <div class="skill_fe"> -->
-                <div class="skill_header">
-                    <!-- <i class="far fa-file-code skill_icon"></i> -->
-                    <div class="skill_title">
-                        <h1> First, take our test now! </h1>
-                        <span class="skill_subtitle">
-                            <h3> 15 minutes to better understand roadmaps and access the path to your success </h3>
-                        </span>
-                        <button class="button_testPage"> Test now </button>
+    <div class="roadmap-page-main">
+        <div class="roadmap-page-test-opener">
+            <div class="roadmap-page-test-opener-header">
+                <h1> First, take our test now! </h1>
+                <span class="roadmap-page-test-opener-subtitle">
+                    <h3> 15 minutes to better understand roadmaps and access the path to your success </h3>
+                </span>
+                <button class="roadmap-page-test-opener-button"> Test now </button>
+            </div>
+
+        </div>
+        <div class="roadmap-page-title">
+            <h2> Our available Roadmaps </h2>
+            <div class="roadmap-page-title-line"></div>
+        </div>
+        <div class="roadmap-page-content">
+            <div class="roadmap-page-content-top">
+                <i class="far fa-file-code roadmap-page-content-icon"></i>
+                    <div class="roadmap-page-content-title" onclick="changeToDS()">
+                        <h1> Data Analyst </h1>
                     </div>
+                    <!-- <i class="fas fa-angle-down roadmap-page-content-arrow"></i> -->
+            </div>
+            <div class="roadmap-page-content-bottom">
+                <i class="far fa-file-code roadmap-page-content-icon"></i>
+                <div class="roadmap-page-content-title" onclick="changeToFrontend()"">
+                    <h1> Front-end Developer </h1>
                 </div>
+                <!-- <i class="fas fa-angle-down roadmap-page-content-arrow"></i> -->
 
             </div>
-            <div class="roadmap_title">
-                <h2> Our available Roadmaps </h2>
-                <div class="roadmap_title_base"></div>
+            <div class="roadmap-page-content-top">
+                <i class="far fa-file-code roadmap-page-content-icon"></i>
+                    <div class="roadmap-page-content-title" onclick="changeToBackend()">
+                        <h1> Back-end Developer </h1>
+                    </div>
+                    <!-- <i class="fas fa-angle-down roadmap-page-content-arrow"></i> -->
             </div>
-            <div class="skill_container container grid">
-                <div class="skill_content skills_close">
-                    <div class="skill_header">
-                        <i class="far fa-file-code skill_icon"></i>
-                        <div class="skill_title">
-                            <h1> Software Developer </h1>
-                        </div>
-                        <i class="fas fa-angle-down skill_arrow"></i>
-
+            <div class="roadmap-page-content-bottom">
+                <i class="far fa-file-code roadmap-page-content-icon"></i>
+                    <div class="roadmap-page-content-title" onclick="changeToFullstack()">
+                        <h1> Full-stack Software Developer </h1>
                     </div>
-                    <div class="skill_list grid">
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">90% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_html"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">80% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_css"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">70% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_js"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">60% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_react"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill_content skills_close">
-                    <div class="skill_header">
-                        <i class="far fa-file-code skill_icon"></i>
-                        <div class="skill_title">
-                            <h1> Data Analyst </h1>
-                        </div>
-                        <i class="fas fa-angle-down skill_arrow"></i>
-
-                    </div>
-                    <div class="skill_list grid">
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">90% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_html"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">80% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_css"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">70% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_js"></span>
-                            </div>
-                        </div>
-                        <div class="skill__data">
-                            <div class="skill_title">
-                                <h3>Back-end developer </h3>
-                                <span class="skill_number">60% </span>
-                            </div>
-                            <div class="skill_bar">
-                                <span class="skill_percentage skill_react"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!-- <i class="fas fa-angle-down roadmap-page-content-arrow"></i> -->
             </div>
         </div>
     </div>
 
     <div class="footer">
-        <div class="pa about">
+        <div class="footer-top">
             <h2>Contact Us</h2>
             <p>Do not forget to contact us if you have any questions </p>
             <ul class="social-media">
@@ -178,7 +106,7 @@
                 <li><a href="#"><i class="fab fa-youtube"></i></i></a></li>
             </ul>
         </div>
-        <form class="form_footer" action="vuhachau2412@email.com" method="POST">
+        <form class="footer-bottom" action="vuhachau2412@email.com" method="POST">
             <div class="form-info">
                 <div class="form-email">
                     <h2> Email </h2>
@@ -192,7 +120,7 @@
             <div class="form-message">
                 <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
             </div>
-            <button class="button_footer" type="submit">Send</button>
+            <button class="footer-form-button" type="submit">Send</button>
 
         </form>
     </div>

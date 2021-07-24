@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+
     <!--=============== ICONS ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/css/profile.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/softwarebeforelog.css">
+
+    <!-- <link rel="stylesheet" href="/css/roadmap.css"> -->
+
+
+    <title>NARA</title>
 </head>
 
 <body>
     <header class="header" id="header">
         <nav class="nav container">
             <a href="/index.html" class="nav__logo">
-                <h1> NARA </h1>
+                <h1>NARA </h1>
             </a>
 
             <div class="nav__menu" id="nav-menu">
@@ -31,7 +36,7 @@
                         <a href="/html/roadmapIntro.html" class="nav__link">Roadmaps</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#discover" class="nav__link"> User A </a>
+                        <a href="/html/profile.html" class="nav__link">Sign In</a>
                     </li>
                 </ul>
 
@@ -43,51 +48,42 @@
             </div>
         </nav>
     </header>
-
-    <div class="main_profile">
-        <div class="user_profile">
-            <div class="profile_content">
-                <h1> Your Dashboard </h1>
-                <div class="intro_line"></div>
-
-                <div class="test_opener_profile">
-
-                    <h2> But first, take our test now! </h2>
-                    <span class="skill_subtitle">
-                        <h3> 15 minutes to better understand roadmaps and access the path to your success </h3>
-                    </span>
-                    <button class="button_profilePage"> Test now </button>
-                </div>
-                <div class="profile_character_box">
-                    <h3> You are The Organized Analyst! </h3>
-
-                    <h4>Organized Analysts are thinkers. They may consider themselves inquisitive, analytical,
-                        practical, or efficient. They probably like to solve abstract problems, conduct research, and
-                        organize information. They may value dependability, innovation, and precision. Organized
-                        Analysts would thrive in a structured career that is research and task-oriented.</h4>
-                </div>
+    <div class="software-page-main">
+        <div class="software-page-test-opener">
+            <div class="software-page-test-opener-header">
+                <h1> First, take our test now! </h1>
+                <span class="software-page-test-opener-subtitle">
+                    <h3> 15 minutes to better understand roadmaps and access the path to your success </h3>
+                </span>
+                <button class="software-page-test-opener-button"> Test now </button>
             </div>
 
-            <h3> Selected Roadmaps </h3>
-            <div class="intro_line"></div>
-
-            <div class="selected_roadmap">
-
-                <div class="roadmap1">
-                    <h3> Data Analyst </h3>
-                </div>
-                <div class="roadmap2">
-                    <h3> Front-end Developer </h3>
-                </div>
-            </div>
         </div>
-        <div class="lastest_result">
-            <h2> Your lastest match is </h2>
-            <h1>Data Analyst</h1>
+        <div class="software-page-title">
+            <h1> Data Analyst Roadmap</h1>
+            <h3> Data Analyst who work in </h3>
+            <!-- <h2> But you can also see our roadmaps for <span class="link-word" onclick="changeToSoftware()">Front-end Developer</span>, and <span class="link-word"> Backend Developer </span> here</h2>            <div class="software-page-title-line"></div> -->
+        </div>
+        <div class="software-page-content">
+            <iframe height="500" max-width="100%" frameborder="0"
+                src="https://www.mindmeister.com/maps/public_map_shell/1967717359/front-end-developer?width=600&height=400&z=auto&t=QMZ4gukHao"
+                scrolling="no" style="overflow: hidden; margin-bottom: 5px;">Your browser is not able to display frames.
+                Please
+                visit <a href="https://www.mindmeister.com/1967717359/front-end-developer?t=QMZ4gukHao"
+                    target="_blank">Front-end developer</a> on MindMeister.</iframe>
+            <div class="software-page-content-text">
+                <div class="software-page-content-text-top"> 
+                    <h1> One more step! </h1>
+                    <h2> This is the full roadmap to become a data analyst. 
+                        <br> 
+                        <br>
+                   But  <span class="sign-up">  sign up</span> to access your simplified, personalized roadmaps based on your characteristics, plus our role-play exercise to better enhance your career </h2></div>
+            </div>
         </div>
     </div>
+
     <div class="footer">
-        <div class="pa about">
+        <div class="footer-top">
             <h2>Contact Us</h2>
             <p>Do not forget to contact us if you have any questions </p>
             <ul class="social-media">
@@ -97,7 +93,7 @@
                 <li><a href="#"><i class="fab fa-youtube"></i></i></a></li>
             </ul>
         </div>
-        <form class="form_footer" action="vuhachau2412@email.com" method="POST">
+        <form class="footer-bottom" action="vuhachau2412@email.com" method="POST">
             <div class="form-info">
                 <div class="form-email">
                     <h2> Email </h2>
@@ -111,7 +107,7 @@
             <div class="form-message">
                 <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
             </div>
-            <button class="button_footer" type="submit">Send</button>
+            <button class="footer-form-button" type="submit">Send</button>
 
         </form>
     </div>
@@ -119,6 +115,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--=============== MAIN JS ===============-->
     <script src="/js/main.js"></script>
+
 </body>
 
 </html>

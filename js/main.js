@@ -90,3 +90,19 @@ sr.reveal(`.intro_picture, .intro_content, .second_content, .second_picture, .pa
     origin: 'left',
     interval: 200,
 })
+
+function changeToFullstack() {
+    window.location.replace('./beforelogin/fullstkbeforelog.html')
+}
+
+function changeToFrontend() {
+    window.location.replace('./beforelogin/frontendbeforelog.html')
+}
+
+function changeToBackend() {
+    window.location.replace('./beforelogin/backendbeforelog.html')
+}
+
+function changeToDS() {
+    window.location.replace('./beforelogin/dsbeforelog.html')
+}

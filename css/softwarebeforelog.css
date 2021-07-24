@@ -1,0 +1,59 @@
+.software-page-main {
+    padding-top: 100px;
+    background-color: rgb(111, 111, 161);
+}
+
+.software-page-test-opener {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.software-page-test-opener-button {
+    background-color: rgb(111, 111, 161);
+    color: white;
+    font-weight: 600;
+    width: 200px;
+}
+
+.software-page-test-opener:hover {
+    transform: scale(1.02);
+    transition: 0.25s;
+}
+
+.software-page-title {
+    text-align: center;
+    color: white;
+    padding: 100px 40px 40px 40px;
+}
+
+.software-page-content-text {
+    background-color: white;
+    padding: 20px;
+}
+
+.sign-up {
+    color: orange;
+    font-size: 20px;
+    background-color: rgb(111, 111, 161);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    color: rgb(111, 111, 161);
+    background-color: orange;
+}
+
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 28px;
+    }
+    .software-page-content-text {
+        background-color: white;
+        padding: 50px;
+    }
+}

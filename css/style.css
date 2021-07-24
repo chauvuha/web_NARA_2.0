@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 iframe {
   text-align: center;
   width: 100%;
@@ -26,8 +30,8 @@ html, body {
 
 /* BODY */
 
-.main_intro,
-.second_intro {
+.main-page-intro,
+.main-page-second-intro {
     padding: 90px 30px 50px 30px;
     background-color: rgb(111, 111, 161);
     display: flex;
@@ -36,7 +40,7 @@ html, body {
     align-items: center;
 }
 
-.main_intro_aboutUs {
+.aboutus-main-intro {
   padding: 100px 15px 20px 15px;
   color: white;
     background-color: rgb(111, 111, 161);
@@ -46,27 +50,29 @@ html, body {
     align-items: center;
 }
 
-.second_intro {
+.main-page-second_intro {
   background-color: white;
+  padding: 90px 30px 50px 30px;
 }
 
-.intro_content {
+.main-page-intro-content {
   align-items: center;
   color: white;
   font-weight: 600;
 }
-.intro_picture {
+.main-page-intro-picture {
 height: 264px;
 overflow:visible
 }
 
-.second_content ul li {
+.main-page-second-intro-content ul li {
   list-style:circle;
 }
 
-.second_picture {
+.main-page-second-intro-picture {
   height: 200px;
 }
+
 body {
     margin: 0px;
   }
@@ -81,18 +87,19 @@ button {
   color: rgb(67, 67, 97);
   cursor: pointer
 }
+
 button:hover {
   background: rgb(67, 67, 97);
   color: white;
 }
 
-.button2 {
+.main-page-button2 {
   background-color: rgb(67, 67, 97) ;
   color: white;
 
 }
 
-.button2:hover {
+.main-page-button2:hover {
   background-color: orange ;
   color: rgb(67, 67, 97);
 }
@@ -105,7 +112,7 @@ button:hover {
   align-items: center;
   justify-content: space-around;
 }
-.form_footer {
+.footer-bottom {
   padding: 0px 30px 30px 30px;
   display: flex;
   flex-direction: column;
@@ -134,7 +141,7 @@ input {
   height: 100px;
 }
 
-.button_footer {
+.footer-form-button {
   color: white;
   margin-top: 20px;
   width: 110px;
@@ -142,12 +149,12 @@ input {
   font-weight: 600;
 }
 
-.button_footer:hover {
+.footer-form-button:hover {
   background-color: white;
   color: rgb(67, 67, 97)
 }
 
-.pa {
+.footer-top {
   font-weight: 600;
   text-align: center;
   padding: 0px 40px 30px 40px;
@@ -176,25 +183,17 @@ input {
 }
 
 
-
-
-
 /* MEDIA QUERIES */
   @media screen and (min-width: 768px) {
-    /* iframe {
-      text-align: center;
-      width: 100%;
-      height: 500px;
-    } */
-      .main_intro,
-      .second_intro {
+      .main-page-intro,
+      .main-page-second_intro {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
       }
-     .intro_picture,
-     .second_picture {
+     .main-page-intro-picture,
+     .main-page-second-intro-picture {
        height: 400px;
      } 
      h2 {
