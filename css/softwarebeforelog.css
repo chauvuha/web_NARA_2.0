@@ -48,6 +48,18 @@
     background-color: orange;
 }
 
+.link-word {
+    color: orange;
+    background-color: rgb(111, 111, 161);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+iframe {
+    height: 600px;
+}
+
 @media screen and (min-width: 768px) {
     h3 {
         font-size: 28px;
