@@ -44,7 +44,7 @@ html, body {
 .aboutus-main-intro {
   padding: 100px 25px 100px 25px;
   color: rgb(67, 67, 97);
-    background-color: orange;
+    background-color: rgb(255, 159, 70);
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ body {
 
 button {
   font-weight: bold;
-  background-color:  orange;
+  background-color:  rgb(255, 159, 70);
   border: none;
   border-radius: 5px;
   height: 55px;
@@ -106,13 +106,13 @@ button:hover {
 }
 
 .main-page-button2:hover {
-  background-color: orange ;
+  background-color: rgb(255, 159, 70) ;
   color: rgb(67, 67, 97);
 }
 
 .footer {
   color:rgb(67, 67, 97);
-  background-color: orange;
+  background-color: rgb(255, 159, 70);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +162,7 @@ input {
 }
 
 .footer-form-button-aboutus {
-  background-color: orange;
+  background-color: rgb(255, 159, 70);
 }
 
 .footer-form-button:hover {
@@ -194,7 +194,7 @@ input {
 }
 
 .social-media-aboutus li a {
-  background-color: orange;
+  background-color: rgb(255, 159, 70);
 }
 
 .social-media li a:hover {
@@ -252,7 +252,7 @@ input {
      }
 
      .footer {
-      background-color: orange;
+      background-color: rgb(255, 159, 70);
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -264,10 +264,10 @@ input {
       color: white;
     }
     .footer-form-button-aboutus {
-      background-color: orange;
+      background-color: rgb(255, 159, 70);
     }
     .social-media-aboutus li a {
-      background-color: orange;
+      background-color: rgb(255, 159, 70);
     }
 }
 
