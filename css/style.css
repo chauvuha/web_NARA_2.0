@@ -60,8 +60,11 @@ html, body {
   color: white;
   font-weight: 600;
 }
+
+
 .main-page-intro-picture {
-height: 264px;
+  margin-top: 20px;
+height: 150px;
 overflow:visible
 }
 
@@ -79,12 +82,13 @@ body {
   }
 
 button {
+  font-weight: bold;
   background-color: orange;
   border: none;
   border-radius: 5px;
-  height: 50px;
+  height: 55px;
   font-size: 15px;
-  padding: 0px 10px;
+  padding: 6px 12px;
   color: rgb(67, 67, 97);
   cursor: pointer
 }
@@ -95,7 +99,7 @@ button:hover {
 }
 
 .main-page-button2 {
-  background-color: rgb(67, 67, 97) ;
+  background-color: rgb(111, 111, 161) ;
   color: white;
 
 }
@@ -206,11 +210,22 @@ input {
         justify-content: space-around;
         align-items: center;
       }
-     .main-page-intro-picture,
+
+    .main-page-intro-picture,
      .main-page-second-intro-picture {
-       height: 400px;
+       height: 260px;
        margin-left: 20px;
-     } 
+     }
+     
+     .main-page-intro-content {
+       padding-left: 30px;
+     }
+
+     .main-page-second-intro-picture {
+      height: 320px;
+      margin-left: 20px;
+      margin-right: 36px;
+     }
 
      h2 {
        font-size: 30px;
