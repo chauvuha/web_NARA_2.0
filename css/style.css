@@ -41,7 +41,7 @@ html, body {
 }
 
 .aboutus-main-intro {
-  padding: 100px 15px 20px 15px;
+  padding: 100px 25px 100px 25px;
   color: white;
     background-color: rgb(111, 111, 161);
     display: block;
@@ -70,8 +70,9 @@ overflow:visible
 }
 
 .main-page-second-intro-picture {
-  height: 200px;
+  height: 170px;
 }
+
 
 body {
     margin: 0px;
@@ -184,6 +185,19 @@ input {
 
 
 /* MEDIA QUERIES */
+
+@media screen and (min-width: 425px) {
+  .main-page-second-intro-picture {
+    height: 200px;
+    }
+
+    .main-page-second-intro-content {
+      padding-left: 40px;
+    }
+  }
+
+  
+
   @media screen and (min-width: 768px) {
       .main-page-intro,
       .main-page-second_intro {
@@ -195,7 +209,9 @@ input {
      .main-page-intro-picture,
      .main-page-second-intro-picture {
        height: 400px;
+       margin-left: 20px;
      } 
+
      h2 {
        font-size: 30px;
        margin-bottom: 17px;
