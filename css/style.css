@@ -34,6 +34,7 @@ html, body {
 .main-page-second-intro {
     padding: 90px 30px 50px 30px;
     background-color: rgb(111, 111, 161);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,8 +43,8 @@ html, body {
 
 .aboutus-main-intro {
   padding: 100px 25px 100px 25px;
-  color: white;
-    background-color: rgb(111, 111, 161);
+  color: rgb(67, 67, 97);
+    background-color: orange;
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +84,7 @@ body {
 
 button {
   font-weight: bold;
-  background-color: orange;
+  background-color:  orange;
   border: none;
   border-radius: 5px;
   height: 55px;
@@ -117,6 +118,12 @@ button:hover {
   align-items: center;
   justify-content: space-around;
 }
+
+.footer-aboutus {
+  background-color: rgb(111, 111, 161);
+  color: white;
+}
+
 .footer-bottom {
   padding: 0px 30px 30px 30px;
   display: flex;
@@ -154,6 +161,10 @@ input {
   font-weight: 600;
 }
 
+.footer-form-button-aboutus {
+  background-color: orange;
+}
+
 .footer-form-button:hover {
   background-color: white;
   color: rgb(67, 67, 97)
@@ -180,6 +191,10 @@ input {
   margin-left: 10px;
   border-radius: 5px;
   font-size: 22px;
+}
+
+.social-media-aboutus li a {
+  background-color: orange;
 }
 
 .social-media li a:hover {
@@ -242,6 +257,17 @@ input {
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
+    }
+
+    .footer-aboutus {
+      background-color: rgb(111, 111, 161);
+      color: white;
+    }
+    .footer-form-button-aboutus {
+      background-color: orange;
+    }
+    .social-media-aboutus li a {
+      background-color: orange;
     }
 }
 
