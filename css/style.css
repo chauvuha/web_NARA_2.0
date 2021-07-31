@@ -86,7 +86,7 @@ button {
   font-weight: bold;
   background-color:  rgb(255, 159, 70);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 55px;
   font-size: 15px;
   padding: 6px 12px;
@@ -188,8 +188,9 @@ input {
   color: white;
   background-color: rgb(67, 67, 97);
   padding: 15px;
+  display: inline-flex;
   margin-left: 10px;
-  border-radius: 5px;
+  border-radius: 100%;
   font-size: 22px;
 }
 
@@ -200,6 +201,11 @@ input {
 .social-media li a:hover {
   background-color: white;
   color: rgb(67, 67, 97)
+}
+
+
+.main-page-third-intro-picture {
+  height: 100px;
 }
 
 
@@ -217,7 +223,7 @@ input {
 
   
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 924px) {
       .main-page-intro,
       .main-page-second_intro {
         display: flex;
