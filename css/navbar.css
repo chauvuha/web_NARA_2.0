@@ -20,11 +20,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* justify-content: center; */
   }
 
   .nav__logo, .nav__toggle {
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
   }
   
   .nav__toggle {
