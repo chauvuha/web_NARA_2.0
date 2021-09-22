@@ -86,23 +86,23 @@ const sr = ScrollReveal({
 // })
 
 
-sr.reveal(`.main-page-intro-content, .main-page-intro-picture, .main-page-second-intro-picture, .main-page-second-intro-content, .footer-top, .footer-bottom`, {
+sr.reveal(`.main-page-intro-content, .main-page-second-intro-picture, .main-page-second-intro-content, .footer-top, .footer-bottom`, {
     origin: 'left',
     interval: 200,
 })
 
 function changeToFullstack() {
-    window.location.replace('./beforelogin/fullstkbeforelog.html')
+    window.location.replace('./beforelogin/fullstack.html')
 }
 
 function changeToFrontend() {
-    window.location.replace('./beforelogin/frontendbeforelog.html')
+    window.location.replace('./beforelogin/frontend.html')
 }
 
 function changeToBackend() {
-    window.location.replace('./beforelogin/backendbeforelog.html')
+    window.location.replace('./beforelogin/backend.html')
 }
 
 function changeToDS() {
-    window.location.replace('./beforelogin/dsbeforelog.html')
+    window.location.replace('./beforelogin/dataanalyst.html')
 }

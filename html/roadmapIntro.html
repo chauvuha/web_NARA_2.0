@@ -22,23 +22,18 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="/index.html" class="nav__logo">
-                <h1>NARA </h1>
+                <h1 class="cursor-pointer">NARA </h1>
             </a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="./aboutUs.html" class="nav__link active-link">About</a>
-                    </li>
-                    <li class="nav__item">
                         <a href="./roadmapIntro.html" class="nav__link">Roadmaps</a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="./afterlogin/profile.html" class="nav__link">Sign In</a>
-                    </li>
+                    </li> -->
                 </ul>
-                <!-- <a href="./beforelogin/fullstkbeforelog.html"></a> -->
-
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
 
@@ -48,7 +43,7 @@
         </nav>
     </header>
     <div class="roadmap-page-main">
-        <div class="roadmap-page-test-opener">
+        <!-- <div class="roadmap-page-test-opener">
             <div class="roadmap-page-test-opener-header">
                 <h1> First, take our test now! </h1>
                 <span class="roadmap-page-test-opener-subtitle">
@@ -57,7 +52,7 @@
                 <button class="roadmap-page-test-opener-button"> Test now </button>
             </div>
 
-        </div>
+        </div> -->
         <div class="roadmap-page-title">
             <h2> Our available Roadmaps </h2>
             <div class="roadmap-page-title-line"></div>
@@ -65,27 +60,27 @@
         <div class="roadmap-page-content">
             <div class="roadmap-page-content-top">
                 <i class="far fa-file-code roadmap-page-content-icon"></i>
-                    <div class="roadmap-page-content-title" onclick="changeToDS()">
-                        <h1> Data Analyst </h1>
-                    </div>
-            </div>
-            <div class="roadmap-page-content-bottom">
-                <i class="far fa-file-code roadmap-page-content-icon"></i>
                 <div class="roadmap-page-content-title" onclick="changeToFrontend()"">
-                    <h1> Front-end Developer </h1>
+                    <h1 class="cursor-pointer"> Front-end Developer </h1>
                 </div>
 
             </div>
-            <div class="roadmap-page-content-top">
+            <div class="roadmap-page-content-bottom">
                 <i class="far fa-file-code roadmap-page-content-icon"></i>
                     <div class="roadmap-page-content-title" onclick="changeToBackend()">
-                        <h1> Back-end Developer </h1>
+                        <h1 class="cursor-pointer"> Back-end Developer </h1>
+                    </div>
+            </div>
+            <div class="roadmap-page-content-top">
+                <i class="far fa-file-code roadmap-page-content-icon"></i>
+                    <div class="roadmap-page-content-title" onclick="changeToFullstack()">
+                        <h1 class="cursor-pointer"> Full-stack Software Developer </h1>
                     </div>
             </div>
             <div class="roadmap-page-content-bottom">
                 <i class="far fa-file-code roadmap-page-content-icon"></i>
-                    <div class="roadmap-page-content-title" onclick="changeToFullstack()">
-                        <h1> Full-stack Software Developer </h1>
+                    <div class="roadmap-page-content-title" onclick="changeToDS()">
+                        <h1 class="cursor-pointer"> Data Analyst </h1>
                     </div>
             </div>
         </div>
