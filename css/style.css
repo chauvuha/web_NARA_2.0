@@ -39,6 +39,10 @@ height: 20px;
   cursor: pointer;
 }
 
+.mr-10px {
+  margin-right: 10px;
+}
+
 /* BODY */
 
 .main-page-intro,
