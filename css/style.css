@@ -277,10 +277,10 @@ input {
       }
 
     .main-page-intro-picture,
-     .main-page-second-intro-picture {
+    .main-page-second-intro-picture {
        height: 450px;
        margin-left: 20px;
-     }
+    }
      
      .main-page-intro-content {
        padding-left: 30px;
