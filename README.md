@@ -7,7 +7,7 @@ Our first version of NARA aimed at Vietnamese youth aged 16 to 30 including:
 * Anyone who is overwhelmed with too many sources of information and needs a one-stop shop that gives a general, clear and concise yet detailed pathway for their intended career
 
 NARA's Goals is to help people:
-* ollow free roadmaps for STEM subjects to give a bird’s-eye view on Web Development and Data Analysis careers
+* Follow free roadmaps for STEM subjects to give a bird’s-eye view on Web Development and Data Analysis careers
 + Understand basic terminologies in Web Development/ Data Science
 * Know where to look for more information to dig deeper
 * Find a community for support and exchange
